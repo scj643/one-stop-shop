@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>The One Stop Shop</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+<div class="row">
+    <div class="col s12 m12 l8 center offset-l2">
+        <div class="card-panel blue">
+            <div class="card-content white-text">
+                <span class="card-title"><h4>THE ONE STOP SUBSCRIBER PROGRAM</h4></span>
+                <p>
+                <p>
+                    Our subscriber program offers different tiers based on how many titles you subscribe to. Each tier
+                    includes increased benefits and a higher discount.
+                </p>
+                <p>
+                </p>
+                <div class="col s12 m12 l6">
+                    <ul class="collection with-header card-panel blue darken-1">
+                        <li class="collection-header blue darken-1"><h4>BRONZE: 1-9 titles</h4></li>
+                        <li class="collection-item blue darken-1">• 10% off new release comics</li>
+                        <li class="collection-item blue darken-1">• FREE Bags & Boards for comics*</li>
+                        <li class="collection-item blue darken-1">• FREE off monthly Previews catalog*</li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l6">
+                    <ul class="collection with-header card-panel blue darken-1">
+                        <li class="collection-header blue darken-1"><h4>SILVER: 10-19 titles</h4></li>
+                        <li class="collection-item blue darken-1">• 15% off new release comics</li>
+                        <li class="collection-item blue darken-1">• FREE Bags & Boards for comics*</li>
+                        <li class="collection-item blue darken-1">• FREE monthly Previews catalog*</li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l6">
+                    <ul class="collection with-header card-panel blue darken-1">
+                        <li class="collection-header blue darken-1"><h4>GOLD: 20-29 titles</h4></li>
+                        <li class="collection-item blue darken-1">• 20% off new release comics</li>
+                        <li class="collection-item blue darken-1">• FREE Bags & Boards for comics*</li>
+                        <li class="collection-item blue darken-1">• FREE monthly Previews catalog*</li>
+                        <li class="collection-item blue darken-1">• Early VIP access to in-store events</li>
+                        <li class="collection-item blue darken-1">• Access to invite only events</li>
+                        <li class="collection-item blue darken-1">• Additional discounts during sales</li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l6">
+                    <ul class="collection with-header card-panel blue darken-1">
+                        <li class="collection-header blue darken-1"><h4>PLATINUM: 30+ titles</h4></li>
+                        <li class="collection-item blue darken-1">• 25% off new release comics</li>
+                        <li class="collection-item blue darken-1">• FREE Bags & Boards for comics*</li>
+                        <li class="collection-item blue darken-1">• FREE monthly Previews catalog*</li>
+                        <li class="collection-item blue darken-1">• Early VIP access to in-store events</li>
+                        <li class="collection-item blue darken-1">• Access to invite only events</li>
+                        <li class="collection-item blue darken-1">• Additional discounts during sales</li>
+                    </ul>
+                </div>
+                <p>TERMS</p>
+                <p>All books must be picked up within 28 days. If, after 28 days, your books have not been
+                    picked up no further books will be held for you, and you will have 7 days to pick up the
+                    items you have on hold. If they are not picked up after the 35 days your subscription
+                    account will be terminated, your items will be restocked and if you subscribe in the future
+                    a cash deposit will be required.</p>
+                <p>
+                <HR>
+                *While Supplies Last
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <h2 class="center-align">Comic Subscription Request</h2>
+    <form class="col m12 s12" action="form.php" method="post">
+        <div class="row">
+            <div class="input-field col m6 s12">
+                <input id="firstname" name="firstname" type="text" class="validate">
+                <label for="firstname">First Name</label>
+            </div>
+            <div class="input-field col m6 s12">
+                <input id="lastname" name="lastname" type="text" class="validate">
+                <label for="lastname">Last Name</label>
+            </div>
+            <div class="input-field col m6 s12">
+                <input id="phone" name="phone" type="tel" class="validate">
+                <label for="phone">Phone Number (xxx-xxx-xxxx)</label>
+            </div>
+            <div class="input-field col m6 s12">
+                <input id="email" name="email" type="email" required class="validate">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12">
+                <textarea id="textarea1" name="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Input Your List HERE (Active Subscribers - Please specify whether you are adding
+                    or
+                    dropping titles)</label>
+            </div>
+            <div class="col m6 s12">
+                <p>
+                    Are You An Active Subscriber?
+                </p>
+                <p>
+                    <input name="sub1" type="radio" id="yes1"/>
+                    <label for="yes1">Yes</label>
+                </p>
+                <p>
+                    <input name="sub1" type="radio" id="no1"/>
+                    <label for="no1">No</label>
+                </p>
+                </div>
+            <div class="col m6 s12">
+            <p>
+                By submitting this list I am agreeing to all the terms and conditions outlined above
+            </p>
+            <p>
+                <input name="acknow1" type="radio" id="yes2"/>
+                <label for="yes2">Yes</label>
+            </p>
+            <p>
+                <input name="acknow1" type="radio" id="no2"/>
+                <label for="no2">No</label>
+            </p>
+                </div>
+            <div class="divider row col m12"></div>
+            <p class="left-align">
+                <button class="btn btn-large waves-effect waves-light" type="submit" name="action">Send</button>
+            </p>
+        </div>
+    </form>
+</div>
+<!--  Scripts-->
+<script src="js/jquery.js"></script>
+<script src="js/bin/materialize.js"></script>
+<script src="js/initial.js"></script>
+
+</body>
+</html>
